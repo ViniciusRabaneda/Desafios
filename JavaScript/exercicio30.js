@@ -25,3 +25,10 @@ function maiorMenor(vetor) {
 
 maiorMenor(numeros);
 maiorMenor(numeros2);
+
+function teste(vetor){
+    for (elemento in vetor){
+        console.log(elemento)
+    }
+}
+teste(numeros)
